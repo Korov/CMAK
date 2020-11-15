@@ -248,3 +248,8 @@ Migration from Kafka Manager to CMAK
 1. Copy config files from old version to new version (application.conf, consumer.properties)
 2. Change start script to use bin/cmak instead of bin/kafka-manager
 
+# 个人使用：
+
+./sbt clean dist
+
+在target目录下生成包解压之后执行bin/cmak命令，浏览器9000端口查看
